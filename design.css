@@ -1,0 +1,78 @@
+/* 
+    Created on : Nov 5, 2024, 3:31:35 PM
+    Author     : Randall Hughes, Justin Fu
+*/
+/* GENERAL */
+html {
+    background-color: darkgray;
+    min-height: 100%;
+}
+
+body {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#homepage-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    /* object-fit: contain; */
+    background-image: url(images/veterinary-clinic.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.507);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1#homepage-hero-h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    -webkit-text-stroke: 2px black;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 4px 4px 3px rgba(73, 73, 73, 0.78);
+}
+
+table {
+    border: 2px solid black;
+    background-color: #e9eeee;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(129, 213, 255);
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+tr:hover {
+    transition-duration: 500ms;
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
