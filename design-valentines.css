@@ -8,7 +8,7 @@
 }
 
 html {
-    background-color: darkgray;
+    background-color: #B52C99;
     min-height: 100%;
 }
 
@@ -55,12 +55,12 @@ table {
 
 caption {
     font-size: 2em;
-    color: black;
+    color: #e62b37;
     font-weight: bold;
 }
 
 th {
-    background-color: rgb(129, 213, 255);
+    background-color: rgb(255, 129, 236);
     text-align: center;
     border: 1.5px solid black;
 }
@@ -72,10 +72,10 @@ td {
 }
 
 tr:hover {
-    background-color: lightblue;
+    background-color: pink;
 }
 
 tr:nth-child(even) {
-    background-color: lightgray;
+    background-color: rgb(255, 187, 237);
 }
 

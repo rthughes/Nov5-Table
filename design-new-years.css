@@ -8,7 +8,8 @@
 }
 
 html {
-    background-color: darkgray;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     min-height: 100%;
 }
 
@@ -16,7 +17,7 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #F32EA1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -55,12 +56,12 @@ table {
 
 caption {
     font-size: 2em;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 th {
-    background-color: rgb(129, 213, 255);
+    background-color: rgb(129, 255, 140);
     text-align: center;
     border: 1.5px solid black;
 }
@@ -72,7 +73,7 @@ td {
 }
 
 tr:hover {
-    background-color: lightblue;
+    background-color: rgb(154, 233, 175);
 }
 
 tr:nth-child(even) {
